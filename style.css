@@ -1,0 +1,184 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#nav{
+    height: 10vh;
+}
+#logo{
+    width: 200px;
+    padding: 0;
+    margin: 0;
+    height: 80px;
+    object-fit: cover;
+    
+}
+
+#BillBoard{
+    height: 80vh;
+    line-height: 30px;
+    
+    background:url('images/pexels-ahmed-muntasir-912050.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-bottom: 0; 
+
+}
+
+.big{
+    font-size: 108px;
+    font-weight: 600;
+}
+.bigWorld{
+    font-size: 108px;
+    font-weight: 600;
+    color: rgb(29,138,155);
+    /* color: rgb(184, 184, 87); */
+}
+
+#secure{
+    padding: 0;
+    height: 50vh;
+    background-image: url('images/output-onlinepngtools.png');
+    background-size: cover;
+
+    
+}
+
+
+ .phone{
+    height: 50px;
+    width: 50%;
+    border-radius: 30px;
+    background-color: rgb(29,138,155);
+    display: flex;
+    align-items: center;
+    justify-content: center;   
+}
+#delivery{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+#delivery .textBox{
+    line-height: 36px;
+}
+#delivery .textBox #bigText{
+        font-size: 54px;
+}
+#coastways-board{
+    width: 80%;
+    height: 90vh;
+    object-fit: contain;
+    text-align: left;
+}
+
+#aboutUsBtn{
+    /* margin-top: 20px; */
+    height: 50px;
+    width: 200px;
+    background: transparent;
+    color:  rgb(29,138,155);
+    border: 2px solid  rgb(29,138,155);
+    font-weight: 600;
+}
+#aboutUsBtn:hover{
+    
+    background: rgb(29,138,155);
+    color: white;
+    border: 2px solid  rgb(29,138,155);
+    transition: all .7s;
+}
+
+#stats{
+    height: 40vh;
+
+}
+
+
+/* Get estimates */
+
+#estimate{
+    background: rgb(29,138,155);
+
+}
+#estimate #text{
+
+    text-align: center;
+  padding:0px auto;
+  display: flex;
+  justify-content: end;
+  padding-top: 20px;
+}
+
+#text1{
+
+    width: 500px;
+    margin-right: 0;
+}
+div>input{
+    border: 2px solid white;
+    width: 20rem;
+    height: 3rem;
+    margin: 10px;
+    border-radius: 10px;
+    background: transparent;
+    outline: none;
+    padding: 10px;
+
+}
+div>select{
+    border: 2px solid white;
+    width: 20rem;
+    height: 3rem;
+    margin: 10px;
+    border-radius: 10px;
+    background: transparent;
+    outline: none;
+    padding: 10px;
+
+}
+div>textarea{
+    border: 2px solid white;
+    width: 41.5rem;
+    height: 10rem;
+    margin: 10px;
+    border-radius: 10px;
+    background: transparent;
+    outline: none;
+
+}
+div>input::placeholder{
+    padding-left: 10px;
+    color: black;
+    
+}
+
+div>textarea::placeholder{
+    color:black;
+}
+
+form:last-child button{
+    height: 3rem;
+    /* width: 41.5rem; */
+    border-radius: 10px;
+    margin-left: 10px;
+border:2px solid white;
+}
+
+
+@media screen and (max-width: 576px)  {
+    
+    .big{
+        font-size: 90px;
+        font-weight: 600;
+    }
+    .bigWorld{
+        font-size: 70px;
+        font-weight: 600;
+        color: rgb(29,138,155);
+        /* color: rgb(184, 184, 87); */
+    }
+}
